@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="IE-edge">
+	<meta name="viewport" content="width=device-width, initial-scale 1.0">
+	<meta name="description" content="Aqui viene la descripcion del sitio, preguntarle a hecotr">
+  <meta name="keywords" content="Salud, Vacunas, Servicios medicos, Medicina, Estudios medicos">
+  <meta name="ROBOTS" content="ALL">
+  <meta name="revisit-after" content="5 days">
+  <meta name="language" content="Spanish">
+  <meta http-equiv="Content-Language" content="Es">
+  <meta name="distribution" content="Global">
+  <meta name="city" content="Guagalajara">
+  <meta name="contry" content="México">
+  <meta name="resource-type" content=Document>
+  <meta name="doc-type" content="Web Page">
+  <meta name="author" content="Gabriel Galvez Pacheco">
+<title>IKNELIA Display</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+<style type="text/css">
+
+    *{
+		margin:0;
+		padding: 0;
+	}
+
+	@keyframes un_efecto{
+		0%{width: 100px;}
+		25%{width: 300px;}
+		50%{width: 200px;background-color: green;}
+		75%{width: 300px; background-color: lightseagreen;}
+		100%{width: 100px;background-color: lemonchiffon;}
+	}
+	.a{
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation: bounce;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+	label{
+		margin-left: 50px;
+		text-transform: uppercase;
+		display: inline-block;
+         margin: 0 0.5rem;
+         animation: bounce; 
+          animation-duration: 2s; 
+          animation-iteration-count: infinite;
+	}
+	#i{
+		margin-left: 500px;
+	}
+		body{
+	font-family: sans-serif;
+	font-size: 13px;
+    background: linear-gradient(#03fcf0,#03d7fc,#0384fc,#0384fc,#030bfc);
+    height: 100vh;
+    width: 100vw;
+	
+}
+table{
+	width: 100vw;
+	border-top-color: orange;
+	border-bottom-color: orange;
+	border-left-color: orange;
+	border-right-color:orange;
+}
+table tr td{
+	text-align: center;
+	text-transform: uppercase;
+	text-transform: bold;
+	padding: 80px;
+	border: solid 30px gold;
+	font-size: 21px;
+	animation-name: un_efecto;
+	animation-delay: 0s;
+	animation-duration: 3s;
+	
+	animation-timing-function: ease-in-out;
+	align-items: center;
+	
+}
+h2{
+	color: darkblue;
+}
+footer{
+	display: inline-block;
+         margin: 0 0.5rem;
+         animation: flip; 
+          animation-duration: 5s; 
+          animation-iteration-count: infinite;
+          border: solid;
+          border-right-color: gold;
+          border-bottom-color: gold;
+          border-right-color: gold;
+          border-left-color: gold;
+          border-top-color: gold;
+}
+</style>
+
+
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light" class="search">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Promociones</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+   
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+	<h1 class="animate__animated animate__flash">IKNELIA</h1> 
+	<div class="container">
+
+<label class="menu" id="i"><button type="button" class="btn btn-outline-warning"><a href="IKNELIA.inicio.html">Inicio</a></button></label>	
+<label class="menu"><button type="button" class="btn btn-outline-warning"><a href="Iknelia.servicios.html">Servicios</a></button></label>
+<label class="menu"><button type="button" class="btn btn-outline-warning"><a href="Iknelia.contactanos.html">Contactos</a></button></label>
+<label class="menu"><button type="button" class="btn btn-outline-warning"><a href="Iknelia.ubicacion.html">Ubicacion</a></button></label>
+
+</div>
+<div >
+	<table cellpadding="100" cellspacing="100" border="50">
+		<h2 class="a">Vacunas</h2>
+		<tr class="bucle-1">
+			<td>
+				Hepatitis
+			</td>
+			<td>
+				Polio
+			</td>
+			<td>
+				Varicela
+			</td>
+		</tr >
+	</table>
+	<table cellpadding="100" cellspacing="100" border="50">
+		<h2 class="a">Analisis clinicos</h2>
+		<tr class="bucle-2">
+			<td>Paquete sana</td>
+			<td>Paquete sana que sana</td>
+			<td>Paquete sana que sana colita de rana</td>
+		</tr>
+	</table>
+	<table cellpadding="100" cellspacing="100" border="50">
+		<h2 class="a">Atencion medica especializada</h2>
+		<tr class="bucle-3">
+			<td>Atencion Oro</td>
+			<td>Atencion platino</td>
+			<td>Atencion diamante</td>
+		</tr>
+	</table>
+	
+</div>
+<footer>
+	
+		<div>Numero de contacto: </div>
+		<div>Domicilio:</div>
+	
+</footer>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</body>
+</html>
+

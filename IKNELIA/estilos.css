@@ -1,0 +1,150 @@
+.promo_font {
+  font-size: 5px;
+}
+
+.h1--iknelia {
+  border: solid;
+  border-color: gold;
+  font-size: 21px;
+}
+
+.footer__div {
+  color: green;
+}
+
+
+    *{
+    margin:0;
+    padding: 0;
+  }
+  @import="estilos.scss";
+
+  @keyframes un_efecto{
+    0%{width: 100px;}
+    25%{width: 300px;}
+    50%{width: 200px;background-color: green;}
+    75%{width: 300px;}
+    100%{width: 100px;background-color: blue;}
+  }
+
+  label{
+    margin-left: 50px;
+    text-transform: uppercase;
+    display: inline-block;
+         margin: 0 0.5rem;
+         animation: bounce; 
+          animation-duration: 2s; 
+          
+
+  }
+
+  #i{
+    margin-left: 500px;
+    
+  }
+  table{
+    height: 100vh;
+    width: 100vw;
+    border-top-color: gold;
+    border-bottom-color: gold;
+    border-left-color: orange;
+    border-right-color: orange;
+
+
+  }
+  h1{
+      color: black;
+    
+    display: inline-block;
+    }
+body{
+  font-family: sans-serif;
+  font-size: 13px;
+    background: linear-gradient(#32a89b,white);
+    height: 100vh;
+    width: 100vw;
+
+  
+}
+table tr td{
+  font-color:#18ab33;
+  text-align: center;
+  border:solid 10px gold;
+  text-transform: uppercase;
+  font-size: 30px;
+  animation-name: un_efecto;
+    
+    animation-timing-function: ease-in;
+    animation-duration: 3s;
+    animation-delay: 0s;
+    
+}
+
+  
+  div label{
+    color: black;
+    text-transform: uppercase;
+  }
+
+
+footer{
+  
+  display: inline-block;
+         margin: 0 0.5rem;
+         animation: flip; 
+          animation-duration: 5s; 
+         
+          border: solid;
+          border-right-color: gold;
+          border-bottom-color: gold;
+          border-right-color: gold;
+          border-left-color: gold;
+          border-top-color: gold;
+
+}
+#img__carrucel{
+  height: 80%;
+  width: 80%;
+}
+
+  .servicios{
+    border: solid 21px;
+    padding: 10px;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 21px;
+    border-top-color: blue;
+    border-bottom-color: blue;
+    border-left-color: orange;
+    border-right-color: orange;
+    animation-name: un_efecto;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-duration: 3s;
+    animation-delay: 0s;
+      border-top-color: orange;
+    border-bottom-color: orange;
+    border-left-color: gold;
+    border-right-color: gold;
+    height: 70%;
+    width: 100%;
+  }
+  .size{
+    height: 1000px;
+    width: 1000px;
+    align-content: center;
+  }
+  .carousel-inner{
+    margin-left: 250px;
+  }
+  .form{
+    height: 20px;
+    width: 10px;
+    align-content: center;
+    margin-left: 500px;
+  }
+   
+
+
+
+/*# sourceMappingURL=estilos.css.map */
